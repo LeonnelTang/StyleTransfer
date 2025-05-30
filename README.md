@@ -314,9 +314,9 @@ if __name__ == "__main__":
 
 | 图像类型 | 风格1                                                        | 风格2                                                        |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 内容图像 | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> |
-| 风格图像 | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\img_data\StarryNight.jpg" alt="StarryNight" style="zoom:15%;" /> | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\img_data\mosaic.jpg" alt="mosaic" style="zoom: 33%;" /> |
-| 输出图像 | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\output\notRT_chicago(StarryNight).png" alt="notRT_chicago(StarryNight)" style="zoom:25%;" /> | <img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\output\notRT_chicago(mosaic).png" alt="notRT_chicago(mosaic)" style="zoom:25%;" /> |
+| 内容图像 | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> |
+| 风格图像 | <img src="img_data\StarryNight.jpg" alt="StarryNight" style="zoom:15%;" /> | <img src="img_data\mosaic.jpg" alt="mosaic" style="zoom: 33%;" /> |
+| 输出图像 | <img src="output\notRT_chicago(StarryNight).png" alt="notRT_chicago(StarryNight)" style="zoom:25%;" /> | <img src="output\notRT_chicago(mosaic).png" alt="notRT_chicago(mosaic)" style="zoom:25%;" /> |
 
 ------
 
@@ -342,7 +342,7 @@ Style Transfer completed in 47.96s
 
 ```
 
-<img src="D:\Learning Materials\魏宪智能计算系统\第二次作业\hw2_SrcCode\output\loss_trend.png" alt="loss_trend" style="zoom: 67%;" />
+<img src="output\loss_trend.png" alt="loss_trend" style="zoom: 67%;" />
 
 - **风格损失**从初始的约 192 快速下降到最终的约 1.34，下降速度较快，在前 200 步内已经大幅收敛，表明模型在早期就能够有效捕捉风格特征。**内容损失**从约 38 稳定下降到约 23，收敛趋势较慢但更加平稳，说明保持内容结构较为稳定。
 
