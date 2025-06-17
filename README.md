@@ -69,7 +69,7 @@ Gatys 等人在 2015 年首次提出使用卷积神经网络（CNN）进行图�
 ### 2、迁移效果
 
 | 图像类型 | 风格1                                                        | 风格2                                                        |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 内容图像 | <img src="img_data\chicago.jpg" alt="chicago" width = 400 /> | <img src="img_data\chicago.jpg" alt="chicago" width = 400/> |
 | 风格图像 | <img src="img_data\StarryNight.jpg" alt="StarryNight" width = 400 /> | <img src="img_data\mosaic.jpg" alt="mosaic" width = 350 /> |
 | 输出图像 | <img src="output\notRT_chicago(StarryNight).png" alt="notRT_chicago(StarryNight)" width = 400 /> | <img src="output\notRT_chicago(mosaic).png" alt="notRT_chicago(mosaic)" width = 400 /> |
