@@ -70,9 +70,9 @@ Gatys 等人在 2015 年首次提出使用卷积神经网络（CNN）进行图�
 
 | 图像类型 | 风格1                                                        | 风格2                                                        |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 内容图像 | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> |
+| 内容图像 | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:15%;" /> | <img src="img_data\chicago.jpg" alt="chicago" style="zoom:25%;" /> |
 | 风格图像 | <img src="img_data\StarryNight.jpg" alt="StarryNight" style="zoom:15%;" /> | <img src="img_data\mosaic.jpg" alt="mosaic" style="zoom: 33%;" /> |
-| 输出图像 | <img src="output\notRT_chicago(StarryNight).png" alt="notRT_chicago(StarryNight)" style="zoom:25%;" /> | <img src="output\notRT_chicago(mosaic).png" alt="notRT_chicago(mosaic)" style="zoom:25%;" /> |
+| 输出图像 | <img src="output\notRT_chicago(StarryNight).png" alt="notRT_chicago(StarryNight)" style="zoom:15%;" /> | <img src="output\notRT_chicago(mosaic).png" alt="notRT_chicago(mosaic)" style="zoom:25%;" /> |
 
 ------
 
